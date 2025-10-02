@@ -1,0 +1,4665 @@
+{
+    "projectFileVersion": "2022-10-01-preview",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0,
+            "normalizeCasing": false,
+            "augmentDiacritics": false
+        },
+        "projectName": "TestApp",
+        "multilingual": false,
+        "description": "voice controlled game",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "None"
+            },
+            {
+                "category": "TellMe"
+            },
+            {
+                "category": "Location"
+            }
+        ],
+        "entities": [
+            {
+                "category": "Laboratory",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "Greeting",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "Point",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "NOVA ball",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "Staff",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "RACE Hub",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "Rokoko Smartsuits",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "Opening Hours",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "Identity",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "Tour",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "Purpose",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "Management",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "Virtual Reality",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "GOV Lab",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "LabObject",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "Robots",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "Facilities",
+                "compositionSetting": "combineComponents"
+            }
+        ],
+        "utterances": [
+            {
+                "text": "Where can I find the resources and labs?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 21,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you tell me where the facilities are?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 26,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where might one find the facilities?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 25,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Guide me to the facilities. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 16,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me where the facilities are. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 18,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me to the facilities. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 15,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please point out where the facilities are. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 27,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please show me where the facilities are. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 25,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where can I find the facilities?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 21,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What facilities are available in this building?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 5,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Are all the facilities in this room?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 12,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where are the facilities located?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 14,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where are the facilities?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 14,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please tell me where I can find the facilities. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 36,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please direct me to the facilities. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 24,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please give me a rundown of the facilities. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 32,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can anyone use the facilities?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 19,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I use the facilities?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 14,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you detail the equipment available in the facilities?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 46,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What kinds of facilities are available here?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 14,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What resources do you have?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 5,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Could you provide an overview of the facilities?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 37,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What facilities can visitors use?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 5,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What resources are available in your facilities?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 37,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Provide an overview of the facilities. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 27,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What sort of facilities do you have?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 13,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can students use the facilities?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 21,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about the facilities. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 18,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What facilities are available here?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 5,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me what facilities you have. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "Facilities",
+                        "offset": 13,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who do I contact to book in?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 20,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Test"
+            },
+            {
+                "text": "Tell me what the opening hours are",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 17,
+                        "length": 13
+                    }
+                ],
+                "dataset": "Test"
+            },
+            {
+                "text": "What is the NOVA Ball used for",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 12,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Test"
+            },
+            {
+                "text": "Who is on staff here",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 10,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Test"
+            },
+            {
+                "text": "Give me a tour",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 10,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Test"
+            },
+            {
+                "text": "Is virtual reality supported here",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 3,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Test"
+            },
+            {
+                "text": "What is the GOV Lab",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 12,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Test"
+            },
+            {
+                "text": "What is the RACE Hub",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 12,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Test"
+            },
+            {
+                "text": "What are those robots",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 15,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Test"
+            },
+            {
+                "text": "Can I find the GOV Lab here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 15,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What sort of facility is the GOV Lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 29,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What experiments are conducted in the GOV Lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 38,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What school uses the GOV Lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 21,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are the research areas of the GOV Laboratory?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 35,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about the GOV Laboratory. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 17,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are some applications of the GOV Lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 34,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What applications does the GOV Lab support?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 27,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is the GOV Lab used for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 12,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What can I find in the GOV Lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 23,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about the Global Operations Visualization Laboratory.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 18,
+                        "length": 42
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What equipment is in the GOV Lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 25,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What sort of research is conducted in the GOV Lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 42,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about the GOV Lab.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 18,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is the GOV Lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "GOV Lab",
+                        "offset": 12,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What sort of mixed reality projects are conducted here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 13,
+                        "length": 13
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is annotated reality a research area of the lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 3,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are some applications of mixed reality?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 30,
+                        "length": 13
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Are there virtual reality headsets here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 10,
+                        "length": 24
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I use the MetaQuest Pro headsets?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 14,
+                        "length": 13
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I use the virtual reality equipment?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 14,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are some of the applications of virtual reality here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 37,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are the MetaQuest headsets used for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 13,
+                        "length": 18
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is virtual reality a research area of this lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 3,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are some of the virtual reality facilities here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 21,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Are there MetaQuest headsets here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 10,
+                        "length": 18
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is there AR equipment here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 9,
+                        "length": 12
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is there augmented reality equipment here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 9,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is there virtual reality equipment here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 9,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is there VR equipment here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Virtual Reality",
+                        "offset": 9,
+                        "length": 2
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What time does the lab open?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 19,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me where to find the NOVA ball. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 26,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you show me the flight sim?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 20,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me where the NOVA ball is. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 18,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where is the flight simulator located?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 13,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you know where the flight simulator is?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 21,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me where the flight sim is. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 18,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where can I find the flight simulator?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 21,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you show me the flight simulator?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 20,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me where the NOVA ball is. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 18,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where's the flight sim?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 12,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where is the NOVA ball?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 13,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please show me where the flight simulator is. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 25,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please direct me to the flight simulator. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 24,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please show me where the NOVA ball is. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 25,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you direct me to the NOVA ball?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 25,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where can I find the NOVA ball?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 21,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where's the flight simulator?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 12,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where is the NOVA ball located?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 12,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where is the flight sim?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 13,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you show me where the flight simulator is?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 26,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where do I find the Rokoko Smartsuits?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 20,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me where the Rokoko Smartsuits are. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 18,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me the Rokoko Smartsuits.",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 12,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Are the Rokoko Smartsuits available?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 8,
+                        "length": 18
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you know where the Rokoko Smartsuits are?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 22,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please direct me to the Rokoko Smartsuits. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 24,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me where the Rokoko Smartsuits are. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 18,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you show me the Rokoko Smartsuits?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 20,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where are the Rokoko Smartsuits?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 14,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where can I find the Rokoko Smartsuits?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 21,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where do I find Tiago?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 16,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you show me Tiago?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 16,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me where Tiago is. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me Tiago. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Direct me to Tiago. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 13,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me where Tiago is.",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where's Tiago?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where is Tiago?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 8,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where can I find Tiago?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 17,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you know where Tiago is?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 18,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where do I find the race hub?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 20,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you show me the race hub?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 20,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you know where the race hub is?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 22,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me the race hub. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 12,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me where the race hub is. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 18,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where can I find the race hub?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 21,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me where the race hub is. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 18,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where's the race hub?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 12,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where is the race hub?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 13,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please direct me to the race hub. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 24,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you know where the GOV Lab is?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 21,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me where the GOV Lab is. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 18,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where do I find the GOV Lab?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 20,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you show me the GOV Lab?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 20,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where can I find the GOV Lab?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 20,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me where the GOV Lab is. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 18,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please direct me to the GOV Lab.",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 24,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me the GOV Lab.",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 11,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where's the GOV Lab?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 11,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where is the GOV Lab located?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 13,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where do I find Rosie?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 16,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me where Rosie is. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me Rosie.",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please direct me to Rosie.",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 20,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where can I find Rosie?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 17,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me where I can find Rosie. ",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 25,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where's Rosie?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me where Rosie is.",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you show me Rosie?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 16,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where is Rosie?",
+                "language": "en-us",
+                "intent": "Location",
+                "entities": [
+                    {
+                        "category": "LabObject",
+                        "offset": 9,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can anyone use this lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 4,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who manages laboratory access?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 12,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who do I talk to about booking?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 23,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who can visit the lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who do I talk to about requesting access?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 23,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do I need an appointment to visit the lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 13,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "How can I get access?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 14,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I get access?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 10,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is there a procedure for booking?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 25,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "How can I access the laboratory?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 10,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do I need special access to visit the lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 10,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "How do I request access?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 9,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I visit the lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 6,
+                        "length": 13
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who do I talk to about making a booking?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 23,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "How do I make a booking?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Management",
+                        "offset": 16,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you give us the tour?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 20,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show everyone around, please. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 5,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can we get a tour?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 13,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show our guests around. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 9,
+                        "length": 13
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Give us a tour. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 10,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please give us a tour. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 17,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you show me around the lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 8,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please start the tour. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 17,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you show me around?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 8,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you give me a tour?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 18,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me what equipment you have. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 0,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Give me a tour of the laboratory. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 10,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me around the lab. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 0,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please give me a tour. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 16,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you give me a tour of the lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Tour",
+                        "offset": 18,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about yourself. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 14,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What do you prefer to be called?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 25,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "How do I address you?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 9,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What do I call you?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 10,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me your name. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 13,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you tell me your name, please?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 21,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is your role here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 13,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you have a name?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 14,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What do you do here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 12,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are you?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 0,
+                        "length": 12
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What can I call you?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 11,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What's your name?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 12,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is your name?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 13,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you tell me your name?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 21,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who are you?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Identity",
+                        "offset": 0,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Could you please confirm the opening hours?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 29,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are the official opening hours?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 21,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you tell me the opening hours?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 19,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "When is the lab open until?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 16,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you have set opening hours?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 16,
+                        "length": 13
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you tell me your opening hours?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 21,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "When does the lab close?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 18,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is after-hours access possible?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 3,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What time does the laboratory open?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 19,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is the lab open on the weekends?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 23,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are the hours of operation?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 13,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "When is the lab open?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 12,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "When can I come in?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 11,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are the opening hours?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Opening Hours",
+                        "offset": 12,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is the Rokoko Smartsuit used for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 12,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Are there motion capture facilities here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 10,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I use the mocap suits?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 14,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Are there mocap suits here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 10,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is the Rokoko Smartsuit here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 7,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I use the Rokoko Smartsuit?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 14,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is motion capture used for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 8,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I capture my movements with the Rokoko Smartsuit?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 36,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is the Rokoko Smartsuit available?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 6,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I collect motion capture data here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 14,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I use the mocap studio here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 14,
+                        "length": 12
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is motion capture technology used for here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 8,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are some applications of motion capture technology?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 30,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are the mocap suits used for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 13,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is the Rokoko Smartsuit?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Rokoko Smartsuits",
+                        "offset": 12,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What do you do in this lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 5,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What happens in this laboratory?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 5,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What projects are done here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 5,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you do cool things here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 10,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you tell me what this lab is used for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 33,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is the main objective of this laboratory?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 17,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What research is being conducted here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 5,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are some applications of this lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 14,
+                        "length": 12
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What sort of projects are developed in this lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 13,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What goes on in this lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 5,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What experiments or studies are conducted in this lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 5,
+                        "length": 22
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What experiments are carried out here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 4,
+                        "length": 12
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is this place for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 13,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What technologies are developed here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 5,
+                        "length": 12
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What projects are happening here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Purpose",
+                        "offset": 5,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is the Race Hub here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 7,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I use equipment in the Race Hub?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 27,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is the Race Hub?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 12,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who uses the Race Hub?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 13,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What does RACE stand for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 10,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What services are available at the Race Hub?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 35,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What happens at the Race Hub?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 19,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What can I find in the Race Hub?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 23,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Are there any events happening at the Race Hub?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 37,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What research is conducted inside the Race Hub?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 38,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What sort of facility is the Race Hub?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 29,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is the Race Hub used for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 12,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What equipment is available at the Race Hub?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 35,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What can I find inside the Race Hub?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 27,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about the Race Hub.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "RACE Hub",
+                        "offset": 18,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is Tiago for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 7,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can the robots talk?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 8,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What can Tiago do?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 9,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about Tiago.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What does Tiago do?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 10,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is Tiago here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 2,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What does Tiago do here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 10,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "How can I use Tiago?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who can use Tiago?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 12,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is Tiago?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Are there robots here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 10,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are the robots used for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 13,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Does this lab focus on robotics?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 23,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about the robots.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 18,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are those cool robots?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 20,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I get help from the staff?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 24,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is there dedicated staff?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 19,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "How many people are on the staff?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 27,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I meet the staff?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 15,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who is the staff on duty?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 10,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is there staff here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 9,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What do the staff do?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 12,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can the staff assist me?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "How can I ask the staff for help?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 18,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Show me where the staff is?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 18,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who is on staff here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 10,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who is on the staff?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who manages the laboratory?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 4,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "How do I contact the staff?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 20,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who oversees the lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Staff",
+                        "offset": 4,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is there a flight simulator here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 11,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about the flight simulator. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 18,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is the NOVA ball used for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 12,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is that ball?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 13,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is there a flight sim here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 11,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What does the NOVA Ball do?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 14,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is there a flight sim in this lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 11,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about the NOVA Ball.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 18,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "How does the NOVA Ball work?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 13,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is the NOVA Ball available?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 6,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is the NOVA Ball?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 12,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is the flight simulator used for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 12,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "How do I use the NOVA Ball?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 17,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Where is the NOVA Ball?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 12,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is there a helicopter sim in the lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "NOVA ball",
+                        "offset": 11,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Are those machines robots?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 19,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me what the robots do. ",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 17,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Are robots one of the research areas here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 4,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do robots work here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 3,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What sort of robots are here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 13,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is Rosie here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 3,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about Rosie.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is Rosie used for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can Rosie talk?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 4,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What does Rosie do here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 10,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "How can I use Rosie?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can Tiago talk?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 4,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who is Rosie?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 7,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Who created Rosie?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 12,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is Rosie?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Robots",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Point forward.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 6,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you point forward?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 14,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please point forward.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 13,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Point somewhere.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 6,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you point somewhere?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 14,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please point somewhere.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 13,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please point behind you.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 13,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you point behind you?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 14,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Point behind you.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 6,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Point right.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 6,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you point right?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please point right.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 13,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Point to the left.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 13,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you point left?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please point left.",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Point",
+                        "offset": 13,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Hi there",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 2
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Good Day",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What's up?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "How are you?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Hi, how are you?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 2
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Hey, how are you?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Hey",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Hi, Vivi",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 2
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Greetings",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Good Evening",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 12
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Good Afternoon",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Good Morning",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 12
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Hello",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Hi!",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 2
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Hello, how are you?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Greeting",
+                        "offset": 0,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is this lab helpful?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 8,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What's the point of this lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 25,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What sort of stuff goes on in this cool lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 40,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Test"
+            },
+            {
+                "text": "What do people do in this lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 26,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you explain why we have this lab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 33,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me more about this facility. What kind of work goes on here?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 24,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What can you tell me about the VXLab?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 31,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about the lab",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 18,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Test"
+            },
+            {
+                "text": "Can you tell me what the VXLab is?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 25,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I use the VXLab",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What can I find in this lab",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 24,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is the VXLab",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 12,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about the VXLab",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 18,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you tell me what this lab is for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 26,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Tell me about this laboratory",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 19,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is this a laboratory?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 10,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What is this lab for?",
+                "language": "en-us",
+                "intent": "TellMe",
+                "entities": [
+                    {
+                        "category": "Laboratory",
+                        "offset": 13,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            }
+        ]
+    }
+}

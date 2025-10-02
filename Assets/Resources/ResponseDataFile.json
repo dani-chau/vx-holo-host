@@ -1,0 +1,94 @@
+{
+    "responses": [
+        {
+            "CategoryKey": "Greeting",
+            "TextResponse": "Hi, welcome to the school of computing technologies at R-M-I-T, a global university of research, enterprise and innovation.",
+            "AnimationTrigger": "WaveTrigger"
+        },
+        {
+            "CategoryKey": "Facilities",
+            "TextResponse": "R-M-I-T has cutting edge facilities for supercomputing, robotics, cyber security, AI, and virtual reality.",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "School",
+            "TextResponse": "The school of computing technologies has three main areas- cyber secutiry, artificial intelligence, and interaction and techology.",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "Robots",
+            "TextResponse": "Robotics is one of the main research interests of this lab, and we have several robots here. Rosie, the two-armed swordfighting robot, and Tiago which has an extendable torso and a manipulator arm . We also have an industrial robot arm.",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "Management",
+            "TextResponse": "Please contact Dr Ian Peake, lab manager, for all booking and access enquiries.",
+            "AnimationTrigger": "WaveTrigger"
+        },
+        {
+            "CategoryKey": "Opening Hours",
+            "TextResponse": "The official hours are Monday to Friday, nine to five. After-hours and weekend access can be arranged.",
+            "AnimationTrigger": "Offer"
+        },
+        {
+            "CategoryKey": "Staff",
+            "TextResponse": "Dr Ian Peake is the digital solutions architect, and Dr James Harland is the director of operations.",
+            "AnimationTrigger": "WaveTrigger"
+        },
+        {
+            "CategoryKey": "Identity",
+            "TextResponse": "My name is Vivienne, your virtual concierge. I am here to assist users and visitors of the VXLab at RMIT. Please speak clearly when you address me.",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "NOVA ball",
+            "TextResponse": "The NOVA motion simulator is a virtual vehicle, combining virtual reality with unlimited motion. It has a three hundred and sixty degree range of motion and is used for flight and racing simulation.",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "Research",
+            "TextResponse": "The VX Lab has many key areas of research including virtual reality, cloud computing at the RACE Hub, and digital innovation. Ask about these to find out more.",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "RACE Hub",
+            "TextResponse": "The R-M-I-T AWS Supercomputing Hub is a commercial cloud supercomputing facility. It is used for research, digital innovation, education and industry applications, as well as robot soccer and deep racing.",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "Virtual Reality",
+            "TextResponse": "Virtual, augmented and annotated reality is one of the research areas of the VX Lab. This includes use of the MetaQuest Pro, surveying, instruction, science, gaming and industry.",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "Purpose",
+            "TextResponse": "The VXLab, or Virtual Experiences Laboratory, is a multi-disciplinary virtual laboratory connecting visualisation and automation facilities in RMIT and industry. We are always working on something new.",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "Rokoko Smartsuits",
+            "TextResponse": "We have facilities that support custom motion capture, using the Rokoko Smartsuit Pro. Please find them in the Gov Lab",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "Laboratory",
+            "TextResponse": "This is the Virtual Experiences  Lab, where we have cutting edge equipment and facilities.",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "GOV Lab",
+            "TextResponse": "The Gov Lab, or Global Operations Visualization Laboratory, is used for data visualisation and space exploration. It features a tiled display driven by rendering middleware like SAGE and Google Liquid Galaxy.",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "Tour",
+            "TextResponse": "Welcome to the Virtual Experiences lab! I am speaking to you from a 32-inch lenticular display. In the race hub, the room parallel to this one on the left, you will find the 60-inch screen with a lifesize version of me, as well as the Amazon Web Services supercomputing hub. If you'll look behind me, you'll find the GOV lab which uses state of the art displays for data visualisation. To your right, you'll see Rosie and Tiago, our other residents. Next to them is the planar display screen. Finally, behind you in the corner is our unlimited motion flight simulator. Ask me for more details!",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "",
+            "TextResponse": "",
+            "AnimationTrigger": ""
+        }
+    ]
+}

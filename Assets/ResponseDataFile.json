@@ -1,0 +1,19 @@
+{
+    "responses": [
+        {
+            "CategoryKey": "Facilities",
+            "TextResponse": "Blah RMIT these are our facilities",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "OtherCategory",
+            "TextResponse": "EEE",
+            "AnimationTrigger": "IsTalking"
+        },
+        {
+            "CategoryKey": "Identity",
+            "TextResponse": "My name is Vivienne, your virtual concierge. I am here to assist users and visitors of the VXLab at RMIT. Please speak clearly when you address me.",
+            "AnimationTrigger": "IsTalking"
+        }
+    ]
+}
